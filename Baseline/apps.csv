@@ -1,0 +1,4 @@
+name,response
+Chrome,"winget install Vivaldi.Vivaldi --silent --scope machine"
+7-Zip,"winget install 7zip.7zip --silent --scope machine"
+VSCode,"winget install Microsoft.VisualStudioCode --silent --scope machine"
