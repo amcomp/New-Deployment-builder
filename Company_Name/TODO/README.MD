@@ -18,6 +18,8 @@ Should add a [string] to main.ps1 to accept help as an option to explain how to 
 ## Validation
 Add a script to run back through the manifest and check the workstation for any missing applications or configurations.
 
+Add a script to check the JSON for Accuracy.
+
 
 
 
