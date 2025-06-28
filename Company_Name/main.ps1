@@ -6,6 +6,7 @@ param (
 Import-Module .\functions\GetInstalledApps.psm1 -Force
 Import-Module .\functions\Generate-List.psm1 -Force
 Import-Module .\functions\Install-Apps.psm1 -Force
+Import-Module .\functions\Validate.psm1 -Force
 
 switch ($Action) {
     "Extract" {
@@ -14,6 +15,9 @@ switch ($Action) {
     }
     "Install" {
         Install-Apps
+    }
+    "Validate" {
+        Start-Validation
     }
     Default {}
 }
